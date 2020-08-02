@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plavos Insurance - Health, Family and Business Insurance</string>
+    <string name="plavos_insurance_logo_description">Plavos Insurance Logo</string>
+    <string name="businessTitle">Plavos Insurance - Health, Family and Business Insurance</string>
+    <string name="quote_button">Get Free Quote Online</string>
+    <string name="call_text">Call</string>
+    <string name="email_text">Email</string>
+    <string name="googleBusiness_text">Business</string>
+    <string name="businessDescription">We are a team of insurance consultants with over 20 years of experience in business, family, and health insurance. Our goal is to provide you with affordable protection for you and your environment.</string>
+</resources>

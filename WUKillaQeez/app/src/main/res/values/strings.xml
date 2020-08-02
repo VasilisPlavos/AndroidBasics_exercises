@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WU Killa Qeez</string>
+    <string name="submit">Submit</string>
+    <string name="trueButton">Yes</string>
+    <string name="falseButton">No</string>
+    <string name="next">Continue</string>
+</resources>

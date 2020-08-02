@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Music Player App</string>
+    <string name="now_playing_text">Now Playing: Eminem - Marshall Mathers LP (2000)</string>
+    <string name="now_playing_button">Now Playing</string>
+</resources>

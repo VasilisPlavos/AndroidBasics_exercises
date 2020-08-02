@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="questionTextView">
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="answerTextView">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+
+    <style name="resultsTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+
+    <style name="submitButton">
+        <item name="android:layout_margin">30dp</item>
+        <item name="android:textColor">#FFC107</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#212121</item>
+
+
+    </style>
+
+</resources>

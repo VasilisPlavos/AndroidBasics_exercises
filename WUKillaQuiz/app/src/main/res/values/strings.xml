@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WU Killa Quiz</string>
+    <string name="question1">Is Cappadonna an original member of the Wu-Tang Clan?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question2">The _ZA handles the primary production on the majority of Wu-Tang tracks.</string>
+    <string name="enterMissingTextHere">Enter Missing Text Here</string>
+    <string name="question3">The Wu-Tang Clan has collaborated with Snoop Dogg.</string>
+    <string name="question4">Select Only The Wu-Tang Clan Members!</string>
+    <string name="lilwayne">Lil\' Wayne</string>
+    <string name="ghostfaceKillah">Ghostface Killah</string>
+    <string name="tupac">Tupac</string>
+    <string name="methodman">Method Man</string>
+    <string name="redman">Redman</string>
+    <string name="submitButton">Submit</string>
+    <string name="afterSubmitHelpMsg">Press Submit to See the Results</string>
+    <string name="answer1">No! Cappadonna is not an original member of the Wu-Tang Clan.</string>
+    <string name="answer2">RZA is the right answer boy...</string>
+    <string name="answer3">Yes! They collaborate with Snoop Dogg at \"The W\" 2000 released!</string>
+    <string name="answer4">The right answers are Ghostface Killah and Method Man!</string>
+    <string name="answerTextView">The right answer will be displayed here after the submit button.</string>
+</resources>

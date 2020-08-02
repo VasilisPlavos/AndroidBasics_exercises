@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pingpongscorecounter.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/fullScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/teamsGamesCounterBarLayoutHeight"
+            android:layout_weight="1"
+            android:background="@color/TeamAColor"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                style="@style/teamsGamesCounterTextView"
+                android:id="@+id/teamAGamesCounterTextView"
+                android:layout_width="@dimen/teamsGamesCounterTextViewLayoutWidth"
+                android:layout_height="@dimen/teamsGamesCounterTextViewLayoutHeight"
+                android:onClick="teamGamesPlusOne"
+                android:tag="@string/teamA"
+                android:text="@string/teamAGamesCount"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/teamsPointsCounterTextView"
+            android:id="@+id/teamAPointsCounterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/teamAScoreCount"
+            android:background="@color/TeamAColor"
+            android:tag="@string/teamA"
+            android:onClick="teamPointsPlusOne"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/teamsGamesCounterBarLayoutHeight"
+            android:layout_weight="1"
+            android:background="@color/TeamBColor"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                style="@style/teamsGamesCounterTextView"
+                android:id="@+id/teamBGamesCounterTextView"
+                android:layout_width="@dimen/teamsGamesCounterTextViewLayoutWidth"
+                android:layout_height="@dimen/teamsGamesCounterTextViewLayoutHeight"
+                android:text="@string/teamBGamesCount"
+                android:tag="@string/teamB"
+                android:onClick="teamGamesPlusOne"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/teamsPointsCounterTextView"
+            android:id="@+id/teamBPointsCounterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/teamBScoreCount"
+            android:background="@color/TeamBColor"
+            android:tag="@string/teamB"
+            android:onClick="teamPointsPlusOne"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

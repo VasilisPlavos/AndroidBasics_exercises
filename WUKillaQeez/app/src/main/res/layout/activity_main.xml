@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA000"
+    tools:context="com.example.android.wukillaqeez.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/messageWithLinkTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="2dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="This project is the Quiz App for the Udacity and Google Lessons! Find me @ growth.ml" />
+
+            <TextView
+                android:id="@+id/question_text_view"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:text="Is Cappadonna an original member of the Wu-Tang Clan?" />
+
+            <RadioGroup
+                android:id="@+id/trueFalseRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/trueButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/trueButton"
+                    android:onClick="onRadioButtonClicked"/>
+
+                <RadioButton
+                    android:id="@+id/falseButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/falseButton"
+                    android:onClick="onRadioButtonClicked"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_margin="30dp"
+                android:textColor="#FFC107"
+                android:textSize="30dp"
+                android:fontFamily="cursive"
+                android:textStyle="bold"
+                android:background="#212121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:onClick="goToNext"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/trueResults"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TRUE: 0"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/falseResults"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="FALSE: 0"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

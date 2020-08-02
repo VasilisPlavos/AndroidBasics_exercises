@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ping Pong Score Counter</string>
+    <string name="teamAGamesCount">0</string>
+    <string name="teamAScoreCount">0</string>
+    <string name="teamBGamesCount">0</string>
+    <string name="teamBScoreCount">0</string>
+    <string name="pointsExplanation">Tap twice to add 1 point</string>
+    <string name="resetGameExplanation">Long Tap to RESET Game</string>
+    <string name="gamesExplanation">Tap twice to add 1 Game</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+</resources>
