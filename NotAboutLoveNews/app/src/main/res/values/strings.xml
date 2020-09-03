@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotAboutLove News</string>
+    <string name="no_news">Currently there are no stories for you. The list will populate automatically. Please come back later and try again.</string>
+    <string name="no_internet_con">No Internet Connection.</string>
+    <string name="no_author">No Author</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_default_search" translatable="false">sex</string>
+    <string name="settings_search_key" translatable="false">search</string>
+    <string name="settings_search_label">Search About Everything</string>
+</resources>
