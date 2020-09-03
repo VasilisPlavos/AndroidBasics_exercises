@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+
+
+    <EditText
+        android:id="@+id/edit_book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="@string/bookName" />
+
+    <EditText
+        android:id="@+id/edit_book_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/bookPrice" />
+
+    <EditText
+        android:id="@+id/edit_book_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/bookQuantity" />
+
+
+    <Button
+        android:id="@+id/increase_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/increase_quantity" />
+
+    <Button
+        android:id="@+id/decrease_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/decrease_quantity" />
+
+    <EditText
+        android:id="@+id/edit_book_supplier_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="@string/book_supplier_name" />
+
+    <EditText
+        android:id="@+id/edit_book_supplier_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/book_supplier_phone" />
+
+
+    <Button
+        android:id="@+id/order_from_supplier_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_from_supplier_button" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" />
+
+</LinearLayout>
