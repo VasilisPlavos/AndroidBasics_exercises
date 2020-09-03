@@ -2,6 +2,15 @@
 
 This is the solution to the app that displays a list of Pokemons and their respective characteristics taken from JSON data. Used in a Udacity course in the Android Basics Nanodegree by Google.
 
+# If not working
+From Android Studio go to: Tools >> Android >> SDK Manager
+
+In the Tools menu in SDK Manager, choose Manage Add-on Sites.
+
+Then select: Android SDK > SDK Update Sites > https://dl-ssl.google.com/android/repository/addon.xml 
+
+Then remove the project and start it again.
+
 # Pre-requisites
 
 Android SDK v24
