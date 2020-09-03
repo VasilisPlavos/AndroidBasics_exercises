@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trikala TourGuide</string>
+    <string name="category_recommended">Προτεινόμενα</string>
+    <string name="category_cafe">Καφετέριες</string>
+    <string name="category_nightlife">Νυχτερινή Ζωή</string>
+    <string name="category_museums">Μουσεία</string>
+    <string name="meteora">Μετέωρα</string>
+    <string name="pertouli">Περτούλι</string>
+    <string name="plastira">Λίμνη Πλαστήρα</string>
+    <string name="trikala">Κέντρο της Πόλης</string>
+    <string name="meteora_description">Τα Μετέωρα είναι ένα σύμπλεγμα από τεράστιους σκοτεινόχρωμους βράχους από ψαμμίτη οι οποίοι υψώνονται έξω από την Καλαμπάκα, κοντά στα πρώτα υψώματα της Πίνδου και των Χασίων.</string>
+    <string name="pertouli_description">Το Περτούλι είναι ορεινό χωριό του νομού Τρικάλων. Είναι χτισμένο σε υψόμετρο 1.150 μέτρων στις πλαγιές του Κόζιακα.</string>
+    <string name="plastira_description">Η Λίμνη Πλαστήρα είναι λίμνη που βρίσκεται στο οροπέδιο της Νεβρόπολης στο Νομό Καρδίτσας. Είναι τεχνητή λίμνη και το επίσημό της όνομα είναι λίμνη Ταυρωπού.</string>
+    <string name="trikala_description">Τα Τρίκαλα είναι πόλη της δυτικής Θεσσαλίας, πρωτεύουσα της Περιφερειακής Ενότητας Τρικάλων και του Δήμου Τρικκαίων. Η πόλη διασχίζεται από τον ποταμό Ληθαίο, ο οποίος αποτελεί παραπόταμο του Πηνειού.</string>
+    <string name="kataraktis">Καταρράκτης Καφέ</string>
+    <string name="barrouge_description">Το BarRouge ναι ένα πολυτελές καφέ στο κέντρο της πόλης.</string>
+    <string name="eightball_description">Στο Eightball μπορείτε να πιείτε τον καφέ σας όσο παίζετε χαρτιά ή τάβλι.</string>
+    <string name="kataraktis_description">Απολαύστε τον καφέ σας στην φύση, δίπλα σε έναν πανέμορφο καταρράκτη.</string>
+    <string name="sante_description">Ένα κλασικό καφέ το οποίο λειτουργεί στο κέντρο της πόλης των Τρικάλων για περισσότερο από 20 χρόνια.</string>
+    <string name="skala">Σκάλα</string>
+    <string name="madragora">Μανδραγόρα</string>
+    <string name="kripti">Κρύπτη</string>
+    <string name="eleven_description">Το Eleven είναι το μεγαλύτερο club την πόλης.</string>
+    <string name="skala_description">Η Σκάλα είναι η μεγαλύτερη Μουσική Σκηνή των Τρικάλων.</string>
+    <string name="madragora_description">Στο Μανδραγόρα μπορεί να πετύχετε Live μπάντες να παίζουν Rap, Rock, Metal, Jazz και άλλα είδη μουσικής.</string>
+    <string name="kripti_description">Όταν δεν ξέρετε τι να κάνετε η απάντηση είναι Κρύπτη. Φορέστε ένα jean και ελάτε για ένα gin.</string>
+    <string name="tsitsani_museum">Μουσείο Τσιτσάνη</string>
+    <string name="historical_sport_museum">Δημοτικό Ιστορικό Αθλητικό Μουσείο</string>
+    <string name="milos">Παλιός Μύλος</string>
+    <string name="photography_museum">Φωτογραφίες της Πόλης</string>
+    <string name="tsitsani_museum_description">Ο Τσιτσάνης είναι ένας από τους πιο γνωστούς μουσικούς των Τρικάλων.</string>
+    <string name="historical_sport_museum_description">Το μουσείο είναι γεμάτο με μετάλλια αθλητών της πόλης.</string>
+    <string name="photography_museum_description">Το μουσείο είναι γεμάτο από ιστορικές φωτογραφίες που όλοι πρέπει να δουν.</string>
+    <string name="milos_description">Ο Παλιός Μύλος είναι ο μεγαλύτερος Μύλος των Τρικάλων. Είναι μέσα στην πόλη και είναι γεμάτος περιπέτειες.</string>
+</resources>

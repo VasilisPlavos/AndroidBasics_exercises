@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Trikala TourGuide</string>
+
+    <string name="category_recommended">Recommended</string>
+    <string name="category_cafe">Cafe\'s</string>
+    <string name="category_nightlife">Nightlife</string>
+    <string name="category_museums">Museums</string>
+
+    <string name="meteora">Meteora</string>
+    <string name="pertouli">Pertouli</string>
+    <string name="plastira">Plastira\'s Lake</string>
+    <string name="trikala">Trikala City - Downtown</string>
+
+    <string name="meteora_description">The Meteora is a rock formation in central Greece hosting
+        one of the largest and most precipitously built complexes of Eastern Orthodox monasteries,
+        second in importance only to Mount Athos.</string>
+
+    <string name="pertouli_description">Pertouli is a village in the Trikala Prefecture, Greece.
+        It lies at the south part of the Pindos mountain chain, 32 km (20 mi) from Trikala city.</string>
+
+    <string name="plastira_description">Lake Plastiras (also called Tavropos Reservoir)
+        is an artificial lake fed by Tavropos (Megdovas) river, near the city of Trikala, Greece.</string>
+
+    <string name="trikala_description">Trikala is a city in northwestern Thessaly, Greece, and
+        the capital of the Trikala regional unit. The city straddles the Lithaios river,
+        which is a tributary of Pineios river.</string>
+
+    <string name="barrouge" translatable="false">BarRouge</string>
+    <string name="eightball" translatable="false">Eightball Playroom Cafe</string>
+    <string name="kataraktis">Kataraktis Cafe (Waterfall)</string>
+    <string name="sante" translatable="false">Sante Cafe Bar</string>
+
+    <string name="barrouge_description">Barrouge is a Luxury Cafe at the center of Trikala. You have to visit it.</string>
+    <string name="eightball_description">Eightball Playroom Cafe is a place full of games. There you can drink your coffee and play card games or backgammon.</string>
+    <string name="kataraktis_description">Drink your coffee at the nature next to a beautiful waterfall.</string>
+
+    <string name="eleven" translatable="false">Eleven</string>
+    <string name="skala">Skala Music Stage</string>
+    <string name="madragora">Mandragora Live Stage</string>
+    <string name="kripti">Kripti Coctail Bar</string>
+
+    <string name="eleven_description">Eleven is the biggest club in Trikala.</string>
+    <string name="skala_description">Skala Music Stage is the biggest Greek Music Stage in the Town.</string>
+    <string name="madragora_description">At Mandragora Live Stage you can see Rap, Rock, Metal, Jazz etc bands playing live music.</string>
+    <string name="kripti_description">Kripti is the spot. If you don\'t know where to go, just wear your jean and come for a shot!</string>
+
+    <string name="tsitsani_museum">Tsitsani\'s Songwriter Museum</string>
+    <string name="historical_sport_museum">Historical Sport\'s Museum</string>
+    <string name="photography_museum">Museum of Photographies of Trikala</string>
+    <string name="milos">Old Mill of Trikala</string>
+
+    <string name="tsitsani_museum_description">Tsitsanis is one of the most famous Songwriters of Trikala Town. At the Museum you will see his Instruments.</string>
+    <string name="historical_sport_museum_description">This museum is full of medals of our ethletes.</string>
+    <string name="photography_museum_description">This museum is full of historical photographies that anybody must see.</string>
+    <string name="milos_description">The old mill is the biggest mill in Trikala. It is inside the down and it is full of adventures.</string>
+    <string name="sante_description">A classic Cafe of Trikala with more than 20 years open at the center of Trikala.</string>
+
+
+</resources>
